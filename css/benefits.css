@@ -1,0 +1,21 @@
+/* BENEFITS */
+.benefits{
+    background-color: var(--secondary-color);
+}
+.benefits .col {
+    background-color: white;
+    width: 100%;
+    margin: .625rem;
+}
+
+@media screen and (min-width:768px) {
+    .benefits .col{
+        width: calc(50% - 1.25rem);
+    }
+}
+
+@media screen and (min-width:992px) {
+    .benefits .col{
+        width: calc(100% / 3 - 1.25rem);
+    }
+}

@@ -16,6 +16,9 @@ section {
     padding-left: .625rem;
     padding-right: .625rem;
 }
+.center{
+    text-align: center;
+}
 /* FLEX */
 .row {
     display: flex;
