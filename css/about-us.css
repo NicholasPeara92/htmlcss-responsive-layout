@@ -1,0 +1,23 @@
+/* ABOUT US */
+.about-us .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+
+@media screen and (min-width:768px) {
+    .about-us .col-big{
+        width: 55%;
+    }
+    .about-us .col-small{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .about-us .col-big{
+        width: calc((100% / 3)*2);
+    }
+    .about-us .col-small{
+        width: calc(100% / 3);
+    }
+}
