@@ -1,0 +1,13 @@
+/* TESTIMONIALS */
+.testimonials .card-debug{
+    background-color: var(--secondary-color);
+    height: 100px;
+    color: white;
+}
+.testimonials .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+.partner{
+    text-align: center;
+}
