@@ -10,6 +10,7 @@
 .testimonials .card {
     background-color: var(--secondary-color);
     color: white;
+    border-radius: 2.5rem;
 }
 .col-img {
     margin: auto;

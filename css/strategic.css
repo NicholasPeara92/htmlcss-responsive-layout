@@ -12,6 +12,7 @@
 .strategic .card {
     background-color: white;
     color: black;
+    border-radius: 2.5rem;
 }
 .strategic .btn {
     background-color: var(--secondary-color);
