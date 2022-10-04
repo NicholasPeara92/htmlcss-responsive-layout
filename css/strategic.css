@@ -4,10 +4,30 @@
 }
 .strategic .col {
     margin: .625rem 0;
+    color: white;
+}
+.strategic img {
+    width: 100%;
+}
+.strategic .card {
+    background-color: white;
+    color: black;
+}
+.strategic .btn {
+    background-color: var(--secondary-color);
+    margin-top: .625rem;
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 992px) {
+    .strategic .row {
+        width: 80%;
+        margin: auto;
+    }
     .strategic .col{
         width: 50%;
+    }
+    #planning2 {
+        width: 16.25rem;
     }
 }
