@@ -2,12 +2,35 @@
 header{
     background-color: var(--first-color);
     padding: 1.25rem 0;
-    color: white;
     position: sticky;
     top: 0;
 }
+header img{
+    max-width: 5rem;
+}
 .main-nav{
     display: none;
+}
+.hamburger {
+    border-color: var(--first-color);
+    background-color: var(--first-color);
+    border-style: none;
+    color: white;
+    font-size: 1.5rem;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header li {
+    margin: 0 .625rem;
+}
+header li:last-child {
+    margin-right: 0;
+}
+header .btn {
+    background-color: white;
+    border: 1px solid white;
 }
 
 @media screen and (min-width: 992px) {
@@ -16,5 +39,8 @@ header{
     }
     .main-nav{
         display: block;
+    }
+    .flex {
+        align-items: center;
     }
 }
