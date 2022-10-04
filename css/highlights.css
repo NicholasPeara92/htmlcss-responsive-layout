@@ -1,10 +1,44 @@
 /* HIGHLIGHTS */
-.card-debug{
+.highlights .card{
     background-color: var(--first-color-light);
-    height: 100px;
+}
+.highlights img{
+    max-width: 12.5rem;
+    margin: auto;
+    margin-bottom: -1.25rem;
 }
 .highlights .col{
     margin: .625rem 0;
+}
+.highlights .flex {
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.highlights .btn {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+    color: white;
+    margin: 1.25rem 0;
+    width: 13.125rem;
+    height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+.highlights h4 {
+    color: var(--first-color);
+    padding: .625rem 0;
+    font-size: 1.25rem;
+}
+.highlights .fa-solid {
+    font-size: 5rem;
+    color: var(--first-color);
+    margin: 1.25rem 0;
+}
+.highlights p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    padding: 1.25rem 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -13,5 +47,29 @@
     }
     .highlights .col:first-child{
         width: calc((100% /3)*2);
+    }
+    .highlights img{
+        margin-left: .625rem;
+    }
+    .highlights .btn{
+        width: 13.75rem;
+    }
+    .height {
+        height: 26.1775rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .highlights .flex {
+        flex-wrap: nowrap;
+    }
+    .height {
+        height: 21.375rem;
+    }
+    .highlights-description {
+        width: 50%;
+    }
+    .highlights img {
+        margin-left: auto;
     }
 }
