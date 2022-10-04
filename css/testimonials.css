@@ -11,6 +11,9 @@
     background-color: var(--secondary-color);
     color: white;
 }
+.col-img {
+    margin: auto;
+}
 .testimonials .col{
     margin: .625rem 0;
 }
@@ -18,15 +21,23 @@
     display: block;
     padding: 1.25rem 0;
 }
+.col-description {
+    text-align: center;
+}
 
-@media screen and(min-width:768px) {
-    .testimonials .description{
-        width: 80%;
+@media screen and (min-width:768px) {
+    .testimonials .row {
+        flex-wrap: nowrap;
+        align-items: center;
     }
-    .testimonials .col {
-        width: 20%;
+    .testimonials .col-description{
+        width: calc(100% - 220px);
+        padding-left: 1.25rem;
     }
-    .testimonials .description, strong {
+    .testimonials .col-img {
+        
+    }
+    .col-description {
         text-align: left;
     }
 }
