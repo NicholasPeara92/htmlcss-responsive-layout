@@ -13,6 +13,7 @@ section {
     list-style: none;
 }
 .col {
+    width: 100%;
     padding-left: .625rem;
     padding-right: .625rem;
 }
