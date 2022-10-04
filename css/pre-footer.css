@@ -6,3 +6,42 @@
 .container-small{
     width: 100%;
 }
+
+.pre-footer h3{
+    color: #fdc15f;
+    font-size: 4.0625rem;
+}
+.pre-footer h2 {
+    font-size: 2.5rem;
+}
+.pre-footer h4 {
+    font-weight: lighter;
+}
+.pre-footer .btn {
+    color: var(--secondary-color);
+    padding: 1.25rem 4.375rem;
+    margin: 1.875rem 0;
+
+}
+.pre-footer .policy {
+    color: white;
+}
+.pre-footer .btn a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .pre-footer p {
+        margin-left: 9.375rem;
+        margin-right: 9.375rem;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pre-footer p {
+        margin-left: 18.75rem;
+        margin-right: 18.75rem;
+
+    }
+}
