@@ -22,6 +22,9 @@ section {
 .p-20 {
     padding: 1.25rem 0;
 }
+.font-30 {
+    font-size: 1.875rem;
+}
 .col {
     width: 100%;
     padding-left: .625rem;

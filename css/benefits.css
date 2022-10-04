@@ -2,9 +2,31 @@
 .benefits{
     background-color: var(--secondary-color);
 }
-.benefits .col {
+.benefits .card {
     background-color: white;
     margin-bottom: 1.25rem;
+}
+.benefits .center {
+    color: white;
+}
+.benefits .card > h2,h3 {
+    color: var(--secondary-color);
+    padding: .625rem 0;
+}
+.benefits .card h2 {
+    font-size: 3.125rem;
+}
+.benefits .btn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: .5rem 2.5rem;
+}
+.benefits p {
+    padding-top: .625rem;
+    padding-bottom: 1.25rem;
+}
+.benefits .font-30 {
+    padding-bottom: 1.25rem;
 }
 
 @media screen and (min-width:768px) {
