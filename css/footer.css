@@ -7,3 +7,20 @@ footer {
 footer p{
     padding: 1.25rem;
 }
+footer a {
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+    footer p {
+        margin-left: 9.375rem;
+        margin-right: 9.375rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    footer p {
+        margin-left: 18.75rem;
+        margin-right: 18.75rem;
+    }
+}
