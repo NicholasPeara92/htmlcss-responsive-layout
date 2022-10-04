@@ -6,17 +6,3 @@
 .container-small{
     width: 100%;
 }
-
-@media screen and (min-width:768px) {
-    .container-small{
-        max-width: 34.75rem;
-        margin: auto;
-    }
-}
-
-@media screen and (min-width:992px) {
-    .container-small{
-        max-width: 35rem;
-        margin: auto;
-    }
-}

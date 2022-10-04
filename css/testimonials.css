@@ -3,6 +3,7 @@
     background-color: var(--secondary-color);
     height: 100px;
     color: white;
+    text-align: center;
 }
 .testimonials .col{
     width: 100%;
@@ -10,4 +11,16 @@
 }
 .partner{
     text-align: center;
+}
+
+@media screen and(min-width:768px) {
+    .testimonials .description{
+        width: 70%;
+    }
+    .testimonials .img {
+        width: 30%;
+    }
+    .testimonials .card-debug{
+        text-align: left;
+    }
 }

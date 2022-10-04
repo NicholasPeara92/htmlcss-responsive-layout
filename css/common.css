@@ -19,6 +19,11 @@ section {
 .center{
     text-align: center;
 }
+.card{
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    border-color: white;
+}
 /* FLEX */
 .row {
     display: flex;
