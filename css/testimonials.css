@@ -1,25 +1,32 @@
 /* TESTIMONIALS */
-.testimonials .card-debug{
+.testimonials img {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 1.25rem auto;
+}
+.testimonials .card {
     background-color: var(--secondary-color);
-    height: 100px;
     color: white;
-    text-align: center;
 }
 .testimonials .col{
     margin: .625rem 0;
 }
-.partner{
-    text-align: center;
+.testimonials strong {
+    display: block;
+    padding: 1.25rem 0;
 }
 
 @media screen and(min-width:768px) {
     .testimonials .description{
-        width: 70%;
+        width: 80%;
     }
-    .testimonials .img {
-        width: 30%;
+    .testimonials .col {
+        width: 20%;
     }
-    .testimonials .card-debug{
+    .testimonials .description, strong {
         text-align: left;
     }
 }
