@@ -21,6 +21,7 @@
     color: var(--secondary-color);
     padding: 1.25rem 4.375rem;
     margin: 1.875rem 0;
+    background-color: white;
 
 }
 .pre-footer .policy {
