@@ -1,6 +1,7 @@
 /* HIGHLIGHTS */
 .highlights .card{
     background-color: var(--first-color-light);
+    height: 100%;
 }
 .highlights img{
     max-width: 12.5rem;
@@ -54,17 +55,11 @@
     .highlights .btn{
         width: 13.75rem;
     }
-    .height {
-        height: 31.875rem;
-    }
 }
 
 @media screen and (min-width: 992px) {
     .highlights .flex {
         flex-wrap: nowrap;
-    }
-    .height {
-        height: 21.375rem;
     }
     .highlights-description {
         width: 50%;
