@@ -22,6 +22,9 @@ section {
 .p-20 {
     padding: 1.25rem 0;
 }
+.pb-20{
+    padding-bottom: 1.25rem;
+}
 .font-30 {
     font-size: 1.875rem;
 }
